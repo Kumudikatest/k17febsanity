@@ -9,23 +9,12 @@ exports.handler = async (event) => {
             UserPoolId: "us-east-1_HdYJb7Znp",
             Limit: 10
         }).promise();
-        //console.log(data);
-
-    } catch (err) {
-        //console.log(err);
-        // error handling goes here
-    };
-    //console.log("test");
-    try {
-        let data = await s3.listObjects({
-            Bucket: "cloud9-ktest",
-            MaxKeys: 10
-        }).promise();
         console.log(data);
 
     } catch (err) {
-        //console.log(err);
+        console.log(err);
         // error handling goes here
     };
+    console.log("test");
     return { "message": "Successfully executed" };
 };

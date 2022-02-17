@@ -4,15 +4,15 @@
       "8c50e407-34c1-4843-93f2-c1d1f7513632": {
         "id": "8c50e407-34c1-4843-93f2-c1d1f7513632",
         "parent": null,
-        "name": "K17FebSanity.js",
+        "name": "K17FebSanity7653.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "K17FebSanity.js",
+        "filePath": "K17FebSanity7653.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 25
+          "lineNumber": 18,
+          "column": 5
         },
         "config": {
           "runtime": "nodejs14.x",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1645095548443,
+        "lastUpdated": 1645106947473,
         "testCases": {
           "b782eb86-70dd-40c6-a9dc-cdf72b2f39de": {
             "id": "b782eb86-70dd-40c6-a9dc-cdf72b2f39de",
@@ -339,16 +339,6 @@
             ]
           }
         }
-      },
-      "s3cloud9Ktest": {
-        "name": "s3cloud9Ktest",
-        "type": "S3",
-        "config": {
-          "mode": 1,
-          "bucket": {
-            "name": "cloud9-ktest"
-          }
-        }
       }
     },
     "customTemplate": {
@@ -402,7 +392,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1645106725683
+    "lastSave": 1645107142788
   },
   "VCS_STATE": {
     "provider": "GitHub",
