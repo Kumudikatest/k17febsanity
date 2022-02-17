@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "K17FebSanity.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 2,
+          "column": 25
         },
         "config": {
           "runtime": "nodejs14.x",
@@ -339,6 +339,16 @@
             ]
           }
         }
+      },
+      "s3cloud9Ktest": {
+        "name": "s3cloud9Ktest",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "cloud9-ktest"
+          }
+        }
       }
     },
     "customTemplate": {
@@ -373,6 +383,12 @@
           "version": "2.817.0",
           "dev": true,
           "notRemovable": false
+        },
+        "mysql": {
+          "name": "mysql",
+          "version": "2.18.1",
+          "dev": false,
+          "language": "nodejs"
         }
       }
     }
@@ -386,7 +402,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1645104523716
+    "lastSave": 1645106725683
   },
   "VCS_STATE": {
     "provider": "GitHub",

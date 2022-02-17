@@ -143,6 +143,11 @@
                     "cognito-idp:ListUsers"
                   ],
                   "Resource": "arn:aws:cognito-idp:us-east-1:318300609668:userpool/us-east-1_HdYJb7Znp"
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": "s3:ListBucket",
+                  "Resource": "arn:aws:s3:::cloud9-ktest"
                 }
               ]
             }
@@ -170,7 +175,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigTestAPIDeployment1645104528133": {
+    "apigTestAPIDeployment1645106734118": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "0itznun7w3",
