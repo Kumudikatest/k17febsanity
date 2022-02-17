@@ -101,6 +101,7 @@
         },
         "Environment": {
           "Variables": {
+            "KKey": "KVa",
             "SIGMA_AWS_ACC_ID": {
               "Ref": "AWS::AccountId"
             }
@@ -169,7 +170,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigTestAPIDeployment1645099912459": {
+    "apigTestAPIDeployment1645104528133": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "0itznun7w3",

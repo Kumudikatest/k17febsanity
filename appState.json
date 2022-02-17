@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "K17FebSanity.js",
         "cursor": {
-          "lineNumber": 10,
-          "column": 27
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs14.x",
@@ -355,6 +355,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "KKey",
+        "varValue": "KVa",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -378,7 +386,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1645098077049
+    "lastSave": 1645104523716
   },
   "VCS_STATE": {
     "provider": "GitHub",
